@@ -1,0 +1,8 @@
+ul.slick-dots
+{
+    background-color: transparent;
+}
+button::before
+{
+    background-color: transparent;
+}

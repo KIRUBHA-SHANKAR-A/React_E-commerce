@@ -1,0 +1,33 @@
+.about
+{
+    background-color:white;
+    margin:20px;
+    padding:10px;
+    border-radius:25px;
+    margin-bottom:30px;
+}
+.head
+{
+    border-radius:15px;
+    background-color:rgb(0, 0, 0);
+    font-size:25px;
+    font-weight:600;
+    padding: 30px 30px;
+    color:white;
+}
+.headin
+{
+    background-color:white;
+    font-size:20px;
+    font-weight:500;
+    padding:20px 30px;
+    margin:5px 5px;
+}
+.content
+{
+    background-color:white;
+    padding:0px 30px;
+    font-size:16px;
+    font-weight:300;
+
+}

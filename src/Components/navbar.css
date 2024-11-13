@@ -1,0 +1,86 @@
+.header{
+    padding:10px 0px;
+     position: sticky;
+     top:0;
+     left:0;
+     width:100%;
+     background: #000000;
+     display:flex;
+     z-index: 1000;
+     justify-content:center;
+     align-items:center;
+  }
+  .navbar-logo
+  {
+    background-color:#000000 ;
+      font-size:28px;
+      color:#ffffff;
+      font-weight:600;
+      margin-right:160px;
+  }
+  .navbar-logo1
+  {
+    background-color:#000000 ;
+    margin:0px 10px;
+      width:40px;
+  }
+  .navbar{
+     display:flex;
+      justify-content:space-between;
+     align-items:center;
+     background-color:#030303 ;
+     color:white;
+     margin-left:80px;
+     margin-right: 400px;
+
+    }
+  .navbarin{
+     background-color:#000000 ;
+     margin-right: 50px;
+     border-radius: 25px;
+    }
+  .navbar a{
+    background-color:#000000 ;
+     position:relative;
+     font-size:16px;
+     color:#ffffff;
+     font-weight:500;
+     margin-left:25px;
+     display:flex;
+      justify-content:space-between;
+     align-items:center;
+    }
+
+    .b{
+         border-radius:25px;
+        color:rgb(255, 255, 255);
+        /* background:none ; */
+        background-color: #000000; 
+        font-size:18px;
+        font-weight:500;
+        height:40px;
+        width:100px;
+        
+    }
+    .b:hover{
+        background: #c0bfbf;
+        color:#000000;
+        
+    }
+    .navbar a::before{
+    content:'';
+    position:absolute;
+    top:100%;
+    left:0;
+    color:white;
+    width:100%;
+    height:2px;
+    background:transparent;
+    transition:.5s;
+  }
+  
+  .navbar a:hover::before{
+    width:100%;
+    
+  }
+  
